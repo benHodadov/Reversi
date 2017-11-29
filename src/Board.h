@@ -34,7 +34,7 @@ public:
 	 * getSide method - returns what value is stored in position [row][col].
 	 * @param row int
 	 * @param col int
-	 * @return
+	 * @return char.
 	 */
 	char getSide(int row, int col) const;
 
