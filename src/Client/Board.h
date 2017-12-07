@@ -1,10 +1,7 @@
 #define LENGTH 8
-/*
- * Board.h
- *
- *  Created on: Nov 1, 2017
- *      Author: barak hodadov
- */
+//
+// Created by ben and barak hodadov on 1/11/17.
+//
 
 #ifndef BOARD_H_
 #define BOARD_H_

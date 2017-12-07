@@ -6,8 +6,10 @@
  */
 
 #include "Game.h"
+#include "Client.h"
 
 int main(int argc, char* argv[]) {
+    /*
     cout << "Hello,\nselect 1 for human vs. human\nselect 2 for human vs. computer\n";
     int mode;
     cin >> mode;
@@ -30,5 +32,28 @@ int main(int argc, char* argv[]) {
     } else { // none
         cout << "Bye Bye"; // say goodbye
     }
+     */
+    Client client("127.0.0.1", 55555);
+    try {
+        client.connectToServer();
+    } catch (const char* msg){
+        cout << "Failed to connect to server because " << msg << endl;
+        return 1;
+    }
+    int row = 0, col = 0;
+    while (true) {
+        cout << "enter row and col" << endl;
+        cin >> row >> col;
+        cout << "sending row = " << row << endl;
+        cout << "sending col = " << col << endl;
+
+        try {
+            Position p = client.sendMessage(row, col);
+            cout << "position = " << p << endl;
+        } catch (const char* msg) {
+            cout << "failed to send exercise to server because " << msg << endl;
+        }
+    }
+
     return 0;
 }

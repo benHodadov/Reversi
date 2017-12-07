@@ -1,0 +1,144 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/AIPlayer.cpp
+AIPlayer.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/AIPlayer.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/AIPlayer.h
+Player.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Board.cpp
+iostream
+-
+Board.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Board.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Board.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Client.cpp
+Client.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Client.h
+iostream
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+string.h
+-
+unistd.h
+-
+cstdlib
+-
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Client.h
+Position.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.cpp
+Game.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.h
+vector
+-
+iostream
+-
+GameLogic.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/GameLogic.h
+Board.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Board.h
+HumanPlayer.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/HumanPlayer.h
+AIPlayer.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/AIPlayer.h
+Player.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.h
+Position.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/GameLogic.cpp
+GameLogic.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/GameLogic.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/GameLogic.h
+vector
+-
+iostream
+-
+Position.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.h
+Board.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Board.h
+Player.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/HumanPlayer.cpp
+iostream
+-
+HumanPlayer.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/HumanPlayer.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/HumanPlayer.h
+Player.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.h
+GameLogic.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/GameLogic.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.cpp
+iostream
+-
+Player.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.h
+ostream
+-
+vector
+-
+Position.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.h
+Board.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Board.h
+GameLogic.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/GameLogic.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.cpp
+iostream
+-
+Position.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.h
+iostream
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/iostream
+stdio.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/stdio.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/RemotePlayer.cpp
+RemotePlayer.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/RemotePlayer.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/RemotePlayer.h
+Player.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.h
+Client.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Client.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/main.cpp
+Game.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.h
+Client.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Client.h
+

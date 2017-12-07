@@ -3,7 +3,7 @@
 //
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
-#include "../src/Board.h"
+#include "../src/Client/Board.h"
 
 TEST(ClassDeclaration, boardTest1) {
     Board b;

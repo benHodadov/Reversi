@@ -2,7 +2,7 @@
 //
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
-#include "../src/Game.h"
+#include "../src/Client/Game.h"
 
 TEST(ClassDeclaration, gameTest1) {
     HumanPlayer A('X');

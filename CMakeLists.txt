@@ -7,14 +7,18 @@ include_directories(lib/googletest-master/googletest/include)
 include_directories(lib/googletest-master/googlemock/include)
 
 
-set(SOURCE_FILES src/Board.cpp src/Board.h
-        src/HumanPlayer.cpp src/HumanPlayer.h src/GameLogic.cpp src/GameLogic.h
-        src/Position.cpp src/Position.h src/Game.cpp src/Game.h src/Player.h src/Player.cpp
-        src/AIPlayer.cpp src/AIPlayer.h)
+set(CLIENT_FILES src/Client/main.cpp src/Client/Board.cpp src/Client/Board.h src/Client/HumanPlayer.cpp src/Client/HumanPlayer.h
+        src/Client/GameLogic.cpp src/Client/GameLogic.h src/Client/Position.cpp src/Client/Position.h
+        src/Client/Game.cpp src/Client/Game.h src/Client/Player.h src/Client/Player.cpp
+        src/Client/AIPlayer.cpp src/Client/AIPlayer.h src/Client/Client.cpp src/Client/Client.h
+        src/Client/RemotePlayer.cpp src/Client/RemotePlayer.h)
 
 set(TEST_FILES test/BoardTest.cpp test/GameTest.cpp test/HumanPlayerTest.cpp test/AIPlayerTest.cpp)
 
-add_executable(Reversi ${SOURCE_FILES} src/main.cpp)
-add_executable(ReversiTest ${TEST_FILES} ${SOURCE_FILES} test/MainTest.cpp)
+set(SERVER_FILES src/Server/main.cpp src/Server/Server.cpp src/Server/Server.h)
+
+add_executable(CLIENT ${CLIENT_FILES} src/Client/main.cpp)
+add_executable(SERVER ${SERVER_FILES} src/Server/main.cpp)
+add_executable(ReversiTest ${TEST_FILES} ${CLIENT_FILES} ${SERVER_FILES} test/MainTest.cpp)
 
 target_link_libraries(ReversiTest gtest gtest_main)

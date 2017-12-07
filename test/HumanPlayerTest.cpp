@@ -3,7 +3,7 @@
 //
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
-#include "../src/HumanPlayer.h"
+#include "../src/Client/HumanPlayer.h"
 
 TEST(ClassDeclaration, humanTest1) {
     HumanPlayer p1('X');

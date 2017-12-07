@@ -2,12 +2,15 @@
  * Position.h
  *
  *  Created on: Nov 4, 2017
- *      Author: barak
+ *      Author: barak and ben
  */
 
 #ifndef POSITION_H_
 #define POSITION_H_
 
+#include "iostream"
+#include "stdio.h"
+using namespace std;
 class Position {
 public:
 	/**

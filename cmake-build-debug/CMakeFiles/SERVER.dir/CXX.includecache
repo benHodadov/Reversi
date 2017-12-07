@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.cpp
+Server.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.h
+sys/socket.h
+-
+netinet/in.h
+-
+unistd.h
+-
+string.h
+-
+iostream
+-
+stdio.h
+-
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.h
+
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/main.cpp
+iostream
+-
+Server.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.h
+

@@ -3,7 +3,7 @@
 //
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
-#include "../src/AIPlayer.h"
+#include "../src/Client/AIPlayer.h"
 
 TEST(ClassDeclaration, AiTest1) {
     AIPlayer p1('X');
