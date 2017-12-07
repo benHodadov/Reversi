@@ -7,10 +7,12 @@
 
 #include "Game.h"
 #include "Client.h"
+#include "RemotePlayer.h"
 
 int main(int argc, char* argv[]) {
-    /*
-    cout << "Hello,\nselect 1 for human vs. human\nselect 2 for human vs. computer\n";
+
+    cout << "Hello,\nselect 1 for human vs. human\nselect 2 for human vs. computer"
+            "\nselect 3 for human vs. remote player\n";
     int mode;
     cin >> mode;
     if (mode == 1) { // if he selected human vs human
@@ -29,11 +31,20 @@ int main(int argc, char* argv[]) {
         Game g(p1, p2); // creates game
         g.run(); // run game
         return 0; // return
+    } else if (mode == 3) { // if he selected human vs computer
+        HumanPlayer human('X');
+        RemotePlayer computer('O'); // creates players
+        Player *p1 = &human;
+        Player *p2 = &computer;
+        Game g(p1, p2); // creates game
+        g.run(); // run game
+        return 0; // return
     } else { // none
         cout << "Bye Bye"; // say goodbye
     }
-     */
-    Client client("127.0.0.1", 55555);
+
+    /*
+    Client client("127.0.0.1", 554555);
     try {
         client.connectToServer();
     } catch (const char* msg){
@@ -54,6 +65,6 @@ int main(int argc, char* argv[]) {
             cout << "failed to send exercise to server because " << msg << endl;
         }
     }
-
+     */
     return 0;
 }

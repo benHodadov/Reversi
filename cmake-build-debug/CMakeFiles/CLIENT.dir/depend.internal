@@ -18,12 +18,14 @@ CMakeFiles/CLIENT.dir/src/Client/Client.cpp.o
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/AIPlayer.h
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Board.h
+ /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Client.h
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.cpp
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.h
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/GameLogic.h
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/HumanPlayer.h
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.h
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.h
+ /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/RemotePlayer.h
 CMakeFiles/CLIENT.dir/src/Client/GameLogic.cpp.o
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Board.h
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/GameLogic.cpp
@@ -63,4 +65,5 @@ CMakeFiles/CLIENT.dir/src/Client/main.cpp.o
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/HumanPlayer.h
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.h
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.h
+ /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/RemotePlayer.h
  /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/main.cpp

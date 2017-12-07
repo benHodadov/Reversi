@@ -4,7 +4,7 @@
 
 #include "RemotePlayer.h"
 
-RemotePlayer::RemotePlayer(char _s):Player(_s), client("127.0.0.1", 44444) {
+RemotePlayer::RemotePlayer(char _s):Player(_s), client("127.0.0.1", 55555) {
     client.connectToServer();
 }
 
@@ -42,7 +42,7 @@ void RemotePlayer::playOneTurn(GameLogic &gl, Board *b) {
     cout << "Current board:" << endl;
     b->print();// prints the board
 
-    cout << "Waiting for " << this->getSign() << "move." << endl;
+    cout << "Waiting for " << this->getSign() << " move." << endl;
     vector<Position> v = this->optionalMoves(*b, gl);
 
     // if any of the moves are legal return 0.

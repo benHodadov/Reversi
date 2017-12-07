@@ -17,12 +17,14 @@ CMakeFiles/CLIENT.dir/src/Client/Client.cpp.o: ../src/Client/Position.h
 
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/AIPlayer.h
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/Board.h
+CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/Client.h
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/Game.cpp
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/Game.h
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/GameLogic.h
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/HumanPlayer.h
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/Player.h
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/Position.h
+CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/RemotePlayer.h
 
 CMakeFiles/CLIENT.dir/src/Client/GameLogic.cpp.o: ../src/Client/Board.h
 CMakeFiles/CLIENT.dir/src/Client/GameLogic.cpp.o: ../src/Client/GameLogic.cpp
@@ -62,5 +64,6 @@ CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/GameLogic.h
 CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/HumanPlayer.h
 CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/Player.h
 CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/Position.h
+CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/RemotePlayer.h
 CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/main.cpp
 

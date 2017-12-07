@@ -49,6 +49,8 @@ Position.h
 /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.cpp
 Game.h
 /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.h
+RemotePlayer.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/RemotePlayer.h
 
 /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.h
 vector
@@ -141,4 +143,6 @@ Game.h
 /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.h
 Client.h
 /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Client.h
+RemotePlayer.h
+/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/RemotePlayer.h
 
