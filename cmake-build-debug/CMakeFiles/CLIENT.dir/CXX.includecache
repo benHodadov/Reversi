@@ -163,4 +163,8 @@ RemotePlayer.h
 /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/RemotePlayer.h
 LocalPlayer.h
 /home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/LocalPlayer.h
+iostream
+-
+fstream
+-
 

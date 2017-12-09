@@ -15,7 +15,7 @@ public:
      * @param serverIP const char*
      * @param serverPort int
      */
-    Client(const char *serverIP, int serverPort);
+    Client(string serverIP, int serverPort);
 
     /**
      * A default constructor.

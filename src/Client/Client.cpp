@@ -15,8 +15,8 @@
 
 using namespace std;
 
-Client::Client(const char* serverIP, int serverPort):
-        serverIP(serverIP), serverPort(serverPort),clientSocket(0) {
+Client::Client(string serverIP, int serverPort):
+        serverIP(serverIP.c_str()), serverPort(serverPort),clientSocket(0) {
 }
 Client::Client() {
 }
