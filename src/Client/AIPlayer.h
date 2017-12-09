@@ -21,6 +21,7 @@ public:
      * The method plays one turn for the computer.
      * @param gl GameLogic&
      * @param b Board*
+     * @return played
      */
     Position playOneTurn(GameLogic &gl, Board *b);
 
@@ -29,7 +30,7 @@ public:
      * @param gl GameLogic&
      * @param om vector<Position>
      * @param b const Board&
-     * @return
+     * @return played
      */
     Position chooseMove(GameLogic &gl, vector<Position> om,  const Board &b);
 };

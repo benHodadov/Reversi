@@ -26,6 +26,8 @@ void Game::run() {
         playing->playOneTurn(gl, &b); // play
         playing = otherPlayer(playing); // change turn
     }
+    p1->endGame(); // end the game
+    p2->endGame();
     b.print(); // print the final board
     gl.findWinner(b, *p1, *p2); //finds the winner and prints a message
 }

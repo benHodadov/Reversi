@@ -31,7 +31,7 @@ public:
     vector<Position> optionalMoves(const Board &board, const GameLogic &gl) const;
 
     /**
-     * The method playes one turn. different for each player so there is no implementation here.
+     * The method plays one turn. different for each player so there is no implementation here.
      * @param gl GameLogic
      * @param b Board
      */
@@ -48,6 +48,12 @@ public:
      * @return sign
      */
     char getSign() const;
+
+    /**
+     * A special method for the remote and local players. end the game for them
+     * (so only local and remote will have an implementation to this function)
+     */
+    virtual void endGame();
 
 private:
     char s;

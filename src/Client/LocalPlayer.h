@@ -18,12 +18,19 @@ public:
      */
     LocalPlayer(char _s, Client* client);
 
+
     /**
      * The method plays one turn for the computer.
      * @param gl GameLogic&
      * @param b Board*
+     * @return played
      */
     Position playOneTurn(GameLogic &gl, Board *b);
+
+    /**
+     * end the game for local player (sends -1,-1 to the server)
+     */
+    void endGame();
 
 private:
     /**
@@ -31,7 +38,7 @@ private:
      * @param gl GameLogic&
      * @param om vector<Position>
      * @param b const Board&
-     * @return
+     * @return played
      */
     Position chooseMove(GameLogic &gl, vector<Position> om,  const Board &b);
     HumanPlayer player;

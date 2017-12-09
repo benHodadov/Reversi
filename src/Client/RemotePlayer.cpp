@@ -31,3 +31,7 @@ Position RemotePlayer::playOneTurn(GameLogic &gl, Board *b) {
     //client->sendToServer(selected.getRow(), selected.getCol());
     return selected;
 }
+
+void RemotePlayer::endGame() {
+    client->sendToServer(-1, -1);
+}

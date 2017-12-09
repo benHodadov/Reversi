@@ -23,6 +23,7 @@ public:
 	 * The method playes for the player.
 	 * @param gl GameLogic&
 	 * @param b Board*
+	 * @return played
 	 */
 	Position playOneTurn(GameLogic &gl, Board *b);
 
@@ -31,7 +32,7 @@ public:
 	 * @param gl GameLogic&
 	 * @param om vector<Position>
 	 * @param b const Board&
-	 * @return position
+	 * @return position move
 	 */
 	Position chooseMove(GameLogic &gl, vector<Position> om, const Board &b);
 };

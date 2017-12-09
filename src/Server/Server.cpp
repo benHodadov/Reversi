@@ -49,6 +49,15 @@ void Server:: start() {
         }
         cout << "first client connected" << endl;
 
+        /*
+        char* msg = "Waiting to other player to join...";
+        int v = write(clientSocket1, &(*msg), sizeof(*msg) * strlen(msg));
+        if (v == -1) {
+            cout << "Error writing message to player 1" << endl;
+            return;
+        }
+        */
+
         // Accept a new client connection
         int clientSocket2 = accept(serverSocket, (struct sockaddr*)&clientAddress2, &clientAddressLen2);
         if (clientSocket2 == -1) {
@@ -76,14 +85,19 @@ void Server:: start() {
             //TransferMessage(clientSocket1, clientSocket2);
         //}
 
-        while (true) {
-            handleClient(clientSocket1, clientSocket2);
-            handleClient(clientSocket2, clientSocket1);
+        bool endGame = false;
+        while (!endGame) {
+            endGame = handleClient(clientSocket1, clientSocket2);
+            if (endGame) {
+                break;
+            }
+            endGame = handleClient(clientSocket2, clientSocket1);
         }
         // Close communication with the client
         close(clientSocket1);
         close(clientSocket2);
         stop();
+        return;
     }
 }
 
@@ -91,7 +105,7 @@ void Server::stop() {
     close(serverSocket);
 }
 
-void Server::handleClient(int srcSocket, int destSocket) {
+bool Server::handleClient(int srcSocket, int destSocket) {
     int row, col;
     char comma;
 
@@ -101,44 +115,47 @@ void Server::handleClient(int srcSocket, int destSocket) {
         int n = read(srcSocket, &row, sizeof(row));
         if (n == -1) {
             cout << "Error reading row" << endl;
-            return;
+            return true;
         } else if (n == 0) {
             cout << "Client disconnected" << endl;
-            return;
+            return true;
         }
 
         //read ','
         n = read(srcSocket, &comma, sizeof(comma));
         if (n == -1) {
             cout << "Error reading comma" << endl;
-            return;
+            return true;
         }
 
         //read col
         n = read(srcSocket, &col, sizeof(col));
         if (n == -1) {
             cout << "Error reading comma" << endl;
-            return;
+            return true;
         }
 
         cout << "Received " << row << comma << col << endl;
+        if (row == -1 && col == -1) {
+            return true;
+        }
 
         //write result back to the client
         n = write(destSocket, &row, sizeof(row));
         if (n == -1) {
             cout << "Error writing row to socket" << endl;
-            return;
+            return true;
         }
         n = write(destSocket, &comma, sizeof(comma));
         if (n == -1) {
             cout << "Error writing comma to socket" << endl;
-            return;
+            return true;
         }
         n = write(destSocket, &col, sizeof(col));
         if (n == -1) {
             cout << "Error writing col to socket" << endl;
-            return;
+            return true;
         }
-        break;
+        return false;
     }
 }

@@ -36,3 +36,8 @@ vector<Position> Player::optionalMoves(const Board &b, const GameLogic &gl) cons
     }
     return om;
 }
+
+void Player::endGame() {
+}
+
+
