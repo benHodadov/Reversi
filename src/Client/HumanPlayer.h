@@ -28,7 +28,7 @@ public:
 	Position playOneTurn(GameLogic &gl, Board *b);
 
 	/**
-	 * the method chooses move for the player
+	 * the method returns the chosen move.
 	 * @param gl GameLogic&
 	 * @param om vector<Position>
 	 * @param b const Board&

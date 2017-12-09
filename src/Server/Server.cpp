@@ -49,14 +49,13 @@ void Server:: start() {
         }
         cout << "first client connected" << endl;
 
-        /*
-        char* msg = "Waiting to other player to join...";
-        int v = write(clientSocket1, &(*msg), sizeof(*msg) * strlen(msg));
+
+        int FirstOrSecond = 1;
+        int v = write(clientSocket1, &FirstOrSecond, sizeof(FirstOrSecond));
         if (v == -1) {
             cout << "Error writing message to player 1" << endl;
             return;
         }
-        */
 
         // Accept a new client connection
         int clientSocket2 = accept(serverSocket, (struct sockaddr*)&clientAddress2, &clientAddressLen2);
@@ -64,6 +63,13 @@ void Server:: start() {
             throw "Error on second accept";
         }
         cout << "second client connected" << endl;
+
+        FirstOrSecond = 2;
+        v = write(clientSocket2, &FirstOrSecond, sizeof(FirstOrSecond));
+        if (v == -1) {
+            cout << "Error writing message to player 2" << endl;
+            return;
+        }
 
         //send sign to the players.
         int x = 1;
@@ -79,12 +85,6 @@ void Server:: start() {
             return;
         }
 
-        //read move from player1 and send to player 2 and back
-        //while (/*msg != "end" */) {
-            //TransferMessage(clientSocket1, clientSocket1);
-            //TransferMessage(clientSocket1, clientSocket2);
-        //}
-
         bool endGame = false;
         while (!endGame) {
             endGame = handleClient(clientSocket1, clientSocket2);
@@ -93,6 +93,7 @@ void Server:: start() {
             }
             endGame = handleClient(clientSocket2, clientSocket1);
         }
+
         // Close communication with the client
         close(clientSocket1);
         close(clientSocket2);
@@ -110,7 +111,6 @@ bool Server::handleClient(int srcSocket, int destSocket) {
     char comma;
 
     while (true) {
-        //read new cell.
         // read row.
         int n = read(srcSocket, &row, sizeof(row));
         if (n == -1) {
@@ -135,7 +135,10 @@ bool Server::handleClient(int srcSocket, int destSocket) {
             return true;
         }
 
+        //print the received position.
         cout << "Received " << row << comma << col << endl;
+
+        //check if the game is over.
         if (row == -1 && col == -1) {
             return true;
         }

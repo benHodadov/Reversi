@@ -80,7 +80,7 @@ Position Client::receiveFromServer() {
 
 void Client::sendToServer(int row, int col) {
     char comma = ',';
-    // Write the exercise arguments to the socket
+    // Write the position to the socket
     int n = write(clientSocket, &row, sizeof(row));
     if  (n == -1) {
         throw "Error writing row to socket";

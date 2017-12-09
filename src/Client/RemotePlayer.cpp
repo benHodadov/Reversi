@@ -12,8 +12,9 @@ Position RemotePlayer::chooseMove(GameLogic &gl, vector<Position> om,  const Boa
 }
 
 Position RemotePlayer::playOneTurn(GameLogic &gl, Board *b) {
+    //print the board
     cout << "Current board:" << endl;
-    b->print();// prints the board
+    b->print();
 
     cout << "Waiting for " << this->getSign() << " move." << endl;
 

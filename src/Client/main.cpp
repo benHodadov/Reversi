@@ -45,8 +45,12 @@ int main(int argc, char* argv[]) {
             settingsFile >> IP;
             settingsFile >> port;
 
-            Client client("127.0.0.1", port);
+            Client client(IP, port);
             client.connectToServer();
+            int isFirst = client.getSign();
+            if (isFirst == 1) {
+                cout << "Waiting for other player to join..." << endl;
+            }
 
             Player *p1;
             Player *p2;

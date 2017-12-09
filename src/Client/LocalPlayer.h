@@ -13,14 +13,14 @@
 class LocalPlayer : public Player {
 public:
     /**
-     * Constructor - create a new Player class.
+     * Constructor - create a new local player class.
      * @param _s char
      */
     LocalPlayer(char _s, Client* client);
 
 
     /**
-     * The method plays one turn for the computer.
+     * playOneTurn method - local player plays a turn.
      * @param gl GameLogic&
      * @param b Board*
      * @return played
@@ -34,7 +34,7 @@ public:
 
 private:
     /**
-     * The method chooses the computer's best move
+     * The method returns the chosen move.
      * @param gl GameLogic&
      * @param om vector<Position>
      * @param b const Board&

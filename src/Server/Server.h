@@ -9,7 +9,7 @@
 class Server {
 public:
     /**
-     * A constructor
+     * Constructor method - create a new Server.
      * @param port int
      */
     Server(int port);
@@ -28,7 +28,13 @@ private:
     int serverSocket;
 
     /**
-     * The function passes the move from srcSocket to destSocket and returns if the game is over or not.
+     * The function passes the move from srcSocket to destSocket.
+     * Returns true if the game is over or and false otherwise.
+     *
+     * The protocol:
+     * (0,0) if the player had no moves to play.
+     * (-1,-1) if the game is over.
+     *
      * @param srcSocket int
      * @param destSocket int
      * @return endGame

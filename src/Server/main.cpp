@@ -13,7 +13,6 @@ int main() {
     if (settingsFile.is_open()) {
         int port;
         settingsFile >> port;
-        cout << port << endl;
         Server server(port);
 
         try {

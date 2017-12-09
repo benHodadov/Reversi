@@ -13,6 +13,7 @@ Position LocalPlayer::chooseMove(GameLogic &gl, vector<Position> om,  const Boar
 }
 
 Position LocalPlayer::playOneTurn(GameLogic &gl, Board *b) {
+    //the local player play a turn the same as the local player, and send the chosen position to the server.
     Position played = player.playOneTurn(gl, b); // uses player's playOneTurn function (same implementation)
     client->sendToServer(played.getRow(), played.getCol()); // send the selected move to the server
     return played; // returns the move

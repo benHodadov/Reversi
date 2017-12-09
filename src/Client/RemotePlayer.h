@@ -13,7 +13,7 @@ class RemotePlayer : public Player{
 public:
 
     /**
-     * Constructor - create a new Player class.
+     * Constructor - create a new remote player class.
      * @param _s char
      */
     RemotePlayer(char _s, Client* client);
