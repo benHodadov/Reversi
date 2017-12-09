@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ReversiTest.dir/src/Client/AIPlayer.cpp.o"
   "CMakeFiles/ReversiTest.dir/src/Client/Client.cpp.o"
   "CMakeFiles/ReversiTest.dir/src/Client/RemotePlayer.cpp.o"
+  "CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o"
   "CMakeFiles/ReversiTest.dir/src/Server/main.cpp.o"
   "CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.o"
   "CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o"

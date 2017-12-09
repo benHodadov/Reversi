@@ -427,6 +427,36 @@ src/Client/HumanPlayer.cpp.s:
 	$(MAKE) -f CMakeFiles/CLIENT.dir/build.make CMakeFiles/CLIENT.dir/src/Client/HumanPlayer.cpp.s
 .PHONY : src/Client/HumanPlayer.cpp.s
 
+src/Client/LocalPlayer.o: src/Client/LocalPlayer.cpp.o
+
+.PHONY : src/Client/LocalPlayer.o
+
+# target to build an object file
+src/Client/LocalPlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o
+	$(MAKE) -f CMakeFiles/CLIENT.dir/build.make CMakeFiles/CLIENT.dir/src/Client/LocalPlayer.cpp.o
+.PHONY : src/Client/LocalPlayer.cpp.o
+
+src/Client/LocalPlayer.i: src/Client/LocalPlayer.cpp.i
+
+.PHONY : src/Client/LocalPlayer.i
+
+# target to preprocess a source file
+src/Client/LocalPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.i
+	$(MAKE) -f CMakeFiles/CLIENT.dir/build.make CMakeFiles/CLIENT.dir/src/Client/LocalPlayer.cpp.i
+.PHONY : src/Client/LocalPlayer.cpp.i
+
+src/Client/LocalPlayer.s: src/Client/LocalPlayer.cpp.s
+
+.PHONY : src/Client/LocalPlayer.s
+
+# target to generate assembly for a file
+src/Client/LocalPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.s
+	$(MAKE) -f CMakeFiles/CLIENT.dir/build.make CMakeFiles/CLIENT.dir/src/Client/LocalPlayer.cpp.s
+.PHONY : src/Client/LocalPlayer.cpp.s
+
 src/Client/Player.o: src/Client/Player.cpp.o
 
 .PHONY : src/Client/Player.o
@@ -779,6 +809,9 @@ help:
 	@echo "... src/Client/HumanPlayer.o"
 	@echo "... src/Client/HumanPlayer.i"
 	@echo "... src/Client/HumanPlayer.s"
+	@echo "... src/Client/LocalPlayer.o"
+	@echo "... src/Client/LocalPlayer.i"
+	@echo "... src/Client/LocalPlayer.s"
 	@echo "... src/Client/Player.o"
 	@echo "... src/Client/Player.i"
 	@echo "... src/Client/Player.s"

@@ -337,7 +337,7 @@ void GameLogic::findWinner(const Board &b, const Player &p1, const Player &p2) c
 		}
 	}
 
-    cout << "The game is finished" << endl;
+    cout << "The game is finished!" << endl;
     cout << "Total score : " << endl;
     cout << "Player 1: " << countP1 << endl;
     cout << "Player 2: " << countP2 << endl << endl;

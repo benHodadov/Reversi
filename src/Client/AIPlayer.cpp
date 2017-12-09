@@ -41,7 +41,7 @@ Position AIPlayer::chooseMove(GameLogic &gl, vector<Position> om,  const Board &
     return bestMove; // returns the best move
 }
 
-void AIPlayer::playOneTurn(GameLogic &gl, Board *b) {
+Position AIPlayer::playOneTurn(GameLogic &gl, Board *b) {
     cout << "Current board:" << endl;
     b->print();
 
@@ -50,8 +50,8 @@ void AIPlayer::playOneTurn(GameLogic &gl, Board *b) {
 
     // if any of the moves are legal return 0.
     if (v.empty()) {
-        cout << "Computer han no possible moves. it's your turn." << endl;
-        return;
+        cout << "Computer has no possible moves. it's your turn." << endl;
+        return Position(0,0);
     }
     //there is at least one possible move.
     Position selected = this->chooseMove(gl, v, *b);
@@ -59,4 +59,6 @@ void AIPlayer::playOneTurn(GameLogic &gl, Board *b) {
 
     //put and turn over.
     gl.putAndTurnOver(b, selected.getRow(), selected.getCol(), *this);
+
+    return selected;
 }

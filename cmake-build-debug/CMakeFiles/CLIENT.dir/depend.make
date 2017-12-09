@@ -22,6 +22,7 @@ CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/Game.cpp
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/Game.h
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/GameLogic.h
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/HumanPlayer.h
+CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/LocalPlayer.h
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/Player.h
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/Position.h
 CMakeFiles/CLIENT.dir/src/Client/Game.cpp.o: ../src/Client/RemotePlayer.h
@@ -38,6 +39,15 @@ CMakeFiles/CLIENT.dir/src/Client/HumanPlayer.cpp.o: ../src/Client/HumanPlayer.cp
 CMakeFiles/CLIENT.dir/src/Client/HumanPlayer.cpp.o: ../src/Client/HumanPlayer.h
 CMakeFiles/CLIENT.dir/src/Client/HumanPlayer.cpp.o: ../src/Client/Player.h
 CMakeFiles/CLIENT.dir/src/Client/HumanPlayer.cpp.o: ../src/Client/Position.h
+
+CMakeFiles/CLIENT.dir/src/Client/LocalPlayer.cpp.o: ../src/Client/Board.h
+CMakeFiles/CLIENT.dir/src/Client/LocalPlayer.cpp.o: ../src/Client/Client.h
+CMakeFiles/CLIENT.dir/src/Client/LocalPlayer.cpp.o: ../src/Client/GameLogic.h
+CMakeFiles/CLIENT.dir/src/Client/LocalPlayer.cpp.o: ../src/Client/HumanPlayer.h
+CMakeFiles/CLIENT.dir/src/Client/LocalPlayer.cpp.o: ../src/Client/LocalPlayer.cpp
+CMakeFiles/CLIENT.dir/src/Client/LocalPlayer.cpp.o: ../src/Client/LocalPlayer.h
+CMakeFiles/CLIENT.dir/src/Client/LocalPlayer.cpp.o: ../src/Client/Player.h
+CMakeFiles/CLIENT.dir/src/Client/LocalPlayer.cpp.o: ../src/Client/Position.h
 
 CMakeFiles/CLIENT.dir/src/Client/Player.cpp.o: ../src/Client/Board.h
 CMakeFiles/CLIENT.dir/src/Client/Player.cpp.o: ../src/Client/GameLogic.h
@@ -62,6 +72,7 @@ CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/Client.h
 CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/Game.h
 CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/GameLogic.h
 CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/HumanPlayer.h
+CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/LocalPlayer.h
 CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/Player.h
 CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/Position.h
 CMakeFiles/CLIENT.dir/src/Client/main.cpp.o: ../src/Client/RemotePlayer.h

@@ -1,4 +1,4 @@
-#define LENGTH 8
+#define LENGTH 3
 //
 // Created by ben and barak hodadov on 1/11/17.
 //

@@ -393,9 +393,33 @@ CMakeFiles/ReversiTest.dir/src/Client/RemotePlayer.cpp.o.provides: CMakeFiles/Re
 CMakeFiles/ReversiTest.dir/src/Client/RemotePlayer.cpp.o.provides.build: CMakeFiles/ReversiTest.dir/src/Client/RemotePlayer.cpp.o
 
 
+CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o: CMakeFiles/ReversiTest.dir/flags.make
+CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o: ../src/Client/LocalPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o -c "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/LocalPlayer.cpp"
+
+CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/LocalPlayer.cpp" > CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.i
+
+CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/LocalPlayer.cpp" -o CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.s
+
+CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o.requires:
+
+.PHONY : CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o.requires
+
+CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o.provides: CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o.provides.build
+.PHONY : CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o.provides
+
+CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o.provides.build: CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o
+
+
 CMakeFiles/ReversiTest.dir/src/Server/main.cpp.o: CMakeFiles/ReversiTest.dir/flags.make
 CMakeFiles/ReversiTest.dir/src/Server/main.cpp.o: ../src/Server/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ReversiTest.dir/src/Server/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ReversiTest.dir/src/Server/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversiTest.dir/src/Server/main.cpp.o -c "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/main.cpp"
 
 CMakeFiles/ReversiTest.dir/src/Server/main.cpp.i: cmake_force
@@ -419,7 +443,7 @@ CMakeFiles/ReversiTest.dir/src/Server/main.cpp.o.provides.build: CMakeFiles/Reve
 
 CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.o: CMakeFiles/ReversiTest.dir/flags.make
 CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.o: ../src/Server/Server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.o -c "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.cpp"
 
 CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.i: cmake_force
@@ -443,7 +467,7 @@ CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.o.provides.build: CMakeFiles/Re
 
 CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o: CMakeFiles/ReversiTest.dir/flags.make
 CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o: ../test/MainTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o -c "/home/ben-hodadov/Desktop/Advanced Programming/ex4/test/MainTest.cpp"
 
 CMakeFiles/ReversiTest.dir/test/MainTest.cpp.i: cmake_force
@@ -481,6 +505,7 @@ ReversiTest_OBJECTS = \
 "CMakeFiles/ReversiTest.dir/src/Client/AIPlayer.cpp.o" \
 "CMakeFiles/ReversiTest.dir/src/Client/Client.cpp.o" \
 "CMakeFiles/ReversiTest.dir/src/Client/RemotePlayer.cpp.o" \
+"CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o" \
 "CMakeFiles/ReversiTest.dir/src/Server/main.cpp.o" \
 "CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.o" \
 "CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o"
@@ -502,6 +527,7 @@ ReversiTest: CMakeFiles/ReversiTest.dir/src/Client/Player.cpp.o
 ReversiTest: CMakeFiles/ReversiTest.dir/src/Client/AIPlayer.cpp.o
 ReversiTest: CMakeFiles/ReversiTest.dir/src/Client/Client.cpp.o
 ReversiTest: CMakeFiles/ReversiTest.dir/src/Client/RemotePlayer.cpp.o
+ReversiTest: CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o
 ReversiTest: CMakeFiles/ReversiTest.dir/src/Server/main.cpp.o
 ReversiTest: CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.o
 ReversiTest: CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o
@@ -510,7 +536,7 @@ ReversiTest: lib/googletest-master/googlemock/gtest/libgtestd.a
 ReversiTest: lib/googletest-master/googlemock/gtest/libgtest_maind.a
 ReversiTest: lib/googletest-master/googlemock/gtest/libgtestd.a
 ReversiTest: CMakeFiles/ReversiTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable ReversiTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable ReversiTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ReversiTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -532,6 +558,7 @@ CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Client/Playe
 CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Client/AIPlayer.cpp.o.requires
 CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Client/Client.cpp.o.requires
 CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Client/RemotePlayer.cpp.o.requires
+CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o.requires
 CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Server/main.cpp.o.requires
 CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.o.requires
 CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o.requires

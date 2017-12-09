@@ -41,7 +41,7 @@ Position HumanPlayer::chooseMove(GameLogic &gl, vector<Position> om, const Board
     }
 }
 
-void HumanPlayer::playOneTurn(GameLogic &gl, Board *b) {
+Position HumanPlayer::playOneTurn(GameLogic &gl, Board *b) {
     cout << "Current board:" << endl;
     b->print();// prints the board
 
@@ -50,11 +50,11 @@ void HumanPlayer::playOneTurn(GameLogic &gl, Board *b) {
 
     // if any of the moves are legal return 0.
     if (v.size() == 0) {
-        cout << "No possible moves. Play passes back to the other player. Press any key to continue.";
+        cout << "No possible moves. Play passes back to the other player. Press any key to continue." << endl;
         char dummy; // a dummy
         cin >> dummy;
         cout << endl;
-        return;
+        return Position(0,0);
     }
 
     //There is at least one possible move. print the moves.
@@ -70,4 +70,6 @@ void HumanPlayer::playOneTurn(GameLogic &gl, Board *b) {
 
     //put and turn over.
     gl.putAndTurnOver(b, selected.getRow(), selected.getCol(), *this); // use play and turn over
+
+    return selected;
 }

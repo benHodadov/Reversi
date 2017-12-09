@@ -41,12 +41,6 @@ private:
 	 * @return otherPlayer
 	 */
 	Player* otherPlayer(Player* p);
-
-	/**
-	 * isRemoted - returns true if the game is in remote mode, false otherwise.
-	 * @return
-	 */
-	bool isRemoted();
 };
 
 #endif /* GAME_H_ */

@@ -8,9 +8,10 @@
 #include "Game.h"
 #include "Client.h"
 #include "RemotePlayer.h"
+#include "LocalPlayer.h"
 
 int main(int argc, char* argv[]) {
-
+    cout << "Welcome to the best reversi on earth" << endl;
     cout << "Hello,\nselect 1 for human vs. human\nselect 2 for human vs. computer"
             "\nselect 3 for human vs. remote player\n";
     int mode;
@@ -32,12 +33,32 @@ int main(int argc, char* argv[]) {
         g.run(); // run game
         return 0; // return
     } else if (mode == 3) { // if he selected human vs computer
-        HumanPlayer human('X');
-        RemotePlayer computer('O'); // creates players
-        Player *p1 = &human;
-        Player *p2 = &computer;
-        Game g(p1, p2); // creates game
-        g.run(); // run game
+        Client client("127.0.0.1", 55555);
+        client.connectToServer();
+
+        Player* p1;
+        Player* p2;
+        // creates players
+        int mySign = client.getSign();
+        cout << "my sign is - " << mySign << endl;
+
+        if (mySign == 1) {
+            LocalPlayer local('X', &client);
+            RemotePlayer remote('O', &client);
+            p1 = &local;
+            p2 = &remote;
+            Game g(p1, p2); // creates game
+            g.run(); // run game
+
+        } else {
+            LocalPlayer local('O', &client);
+            RemotePlayer remote('X', &client);
+            p1 = &local;
+            p2 = &remote;
+            Game g(p2, p1); // creates game
+            g.run(); // run game
+        }
+
         return 0; // return
     } else { // none
         cout << "Bye Bye"; // say goodbye

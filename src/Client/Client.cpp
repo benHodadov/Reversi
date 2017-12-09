@@ -17,7 +17,8 @@ using namespace std;
 
 Client::Client(const char* serverIP, int serverPort):
         serverIP(serverIP), serverPort(serverPort),clientSocket(0) {
-    cout << "Client" << endl;
+}
+Client::Client() {
 }
 
 void Client::connectToServer() {
@@ -52,7 +53,32 @@ void Client::connectToServer() {
     cout << "Connected to server" << endl;
 }
 
-Position Client::sendMessage(int row, int col) {
+int Client::getSign() {
+    int sign;
+    read(clientSocket, &sign, sizeof(sign));
+    return sign;
+}
+
+Position Client::receiveFromServer() {
+    // Read the result from the server
+    int r, c, n;
+    char comma = ',';
+    n = read(clientSocket, &r, sizeof(int));
+    if (n == -1) {
+        throw "Error reading row from socket";
+    }
+    n = read(clientSocket, &comma, sizeof(comma));
+    if (n == -1) {
+        throw "Error reading comma from socket";
+    }
+    n = read(clientSocket, &c, sizeof(int));
+    if (n == -1) {
+        throw "Error reading col from socket";
+    }
+    return Position(r, c);
+}
+
+void Client::sendToServer(int row, int col) {
     char comma = ',';
     // Write the exercise arguments to the socket
     int n = write(clientSocket, &row, sizeof(row));
@@ -67,20 +93,4 @@ Position Client::sendMessage(int row, int col) {
     if (n == -1) {
         throw "Error writing col to socket";
     }
-
-    // Read the result from the server
-    int r, c;
-    n = read(clientSocket, &r, sizeof(int));
-    if (n == -1) {
-        throw "Error reading row from socket";
-    }
-    n = read(clientSocket, &comma, sizeof(comma));
-    if (n == -1) {
-        throw "Error reading comma from socket";
-    }
-    n = read(clientSocket, &c, sizeof(int));
-    if (n == -1) {
-        throw "Error reading col from socket";
-    }
-    return Position(r, c);
 }

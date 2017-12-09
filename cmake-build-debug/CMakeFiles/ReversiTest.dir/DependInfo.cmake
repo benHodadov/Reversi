@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.cpp" "/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/ReversiTest.dir/src/Client/Game.cpp.o"
   "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/GameLogic.cpp" "/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/ReversiTest.dir/src/Client/GameLogic.cpp.o"
   "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/HumanPlayer.cpp" "/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/ReversiTest.dir/src/Client/HumanPlayer.cpp.o"
+  "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/LocalPlayer.cpp" "/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/ReversiTest.dir/src/Client/LocalPlayer.cpp.o"
   "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.cpp" "/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/ReversiTest.dir/src/Client/Player.cpp.o"
   "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.cpp" "/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/ReversiTest.dir/src/Client/Position.cpp.o"
   "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/RemotePlayer.cpp" "/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/ReversiTest.dir/src/Client/RemotePlayer.cpp.o"

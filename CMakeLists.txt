@@ -11,7 +11,7 @@ set(CLIENT_FILES src/Client/main.cpp src/Client/Board.cpp src/Client/Board.h src
         src/Client/GameLogic.cpp src/Client/GameLogic.h src/Client/Position.cpp src/Client/Position.h
         src/Client/Game.cpp src/Client/Game.h src/Client/Player.h src/Client/Player.cpp
         src/Client/AIPlayer.cpp src/Client/AIPlayer.h src/Client/Client.cpp src/Client/Client.h
-        src/Client/RemotePlayer.cpp src/Client/RemotePlayer.h)
+        src/Client/RemotePlayer.cpp src/Client/RemotePlayer.h src/Client/LocalPlayer.cpp src/Client/LocalPlayer.h)
 
 set(TEST_FILES test/BoardTest.cpp test/GameTest.cpp test/HumanPlayerTest.cpp test/AIPlayerTest.cpp)
 

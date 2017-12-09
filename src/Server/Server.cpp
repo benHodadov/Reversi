@@ -35,18 +35,55 @@ void Server:: start() {
     // Start listening to incoming connections
     listen(serverSocket, MAX_CONNECTED_CLIENTS);
     // Define the client socket's structures
-    struct sockaddr_in clientAddress;
-    socklen_t clientAddressLen = sizeof((struct sockaddr*) &clientAddress);
+    struct sockaddr_in clientAddress1;
+    socklen_t clientAddressLen1 = sizeof((struct sockaddr*) &clientAddress1);
+
+    struct sockaddr_in clientAddress2;
+    socklen_t clientAddressLen2 = sizeof((struct sockaddr*) &clientAddress2);
     while (true) {
-        cout << "Waiting for client connections..." << endl;
+        cout << "Waiting for connections..." << endl;
         // Accept a new client connection
-        int clientSocket = accept(serverSocket, (struct sockaddr*)&clientAddress, &clientAddressLen);
-        cout << "Client connected" << endl;
-        if (clientSocket == -1)
-            throw "Error on accept";
-        handleClient(clientSocket);
+        int clientSocket1 = accept(serverSocket, (struct sockaddr*)&clientAddress1, &clientAddressLen1);
+        if (clientSocket1 == -1) {
+            throw "Error on first accept";
+        }
+        cout << "first client connected" << endl;
+
+        // Accept a new client connection
+        int clientSocket2 = accept(serverSocket, (struct sockaddr*)&clientAddress2, &clientAddressLen2);
+        if (clientSocket2 == -1) {
+            throw "Error on second accept";
+        }
+        cout << "second client connected" << endl;
+
+        //send sign to the players.
+        int x = 1;
+        int o = 2;
+        int n = write(clientSocket1, &x, sizeof(x));
+        if (n == -1) {
+            cout << "Error writing x to player 1" << endl;
+            return;
+        }
+        n = write(clientSocket2, &o, sizeof(o));
+        if (n == -1) {
+            cout << "Error writing o to player 2" << endl;
+            return;
+        }
+
+        //read move from player1 and send to player 2 and back
+        //while (/*msg != "end" */) {
+            //TransferMessage(clientSocket1, clientSocket1);
+            //TransferMessage(clientSocket1, clientSocket2);
+        //}
+
+        while (true) {
+            handleClient(clientSocket1, clientSocket2);
+            handleClient(clientSocket2, clientSocket1);
+        }
         // Close communication with the client
-        close(clientSocket);
+        close(clientSocket1);
+        close(clientSocket2);
+        stop();
     }
 }
 
@@ -54,14 +91,14 @@ void Server::stop() {
     close(serverSocket);
 }
 
-void Server::handleClient(int clientSocket) {
+void Server::handleClient(int srcSocket, int destSocket) {
     int row, col;
     char comma;
 
     while (true) {
         //read new cell.
         // read row.
-        int n = read(clientSocket, &row, sizeof(row));
+        int n = read(srcSocket, &row, sizeof(row));
         if (n == -1) {
             cout << "Error reading row" << endl;
             return;
@@ -71,14 +108,14 @@ void Server::handleClient(int clientSocket) {
         }
 
         //read ','
-        n = read(clientSocket, &comma, sizeof(comma));
+        n = read(srcSocket, &comma, sizeof(comma));
         if (n == -1) {
             cout << "Error reading comma" << endl;
             return;
         }
 
         //read col
-        n = read(clientSocket, &col, sizeof(col));
+        n = read(srcSocket, &col, sizeof(col));
         if (n == -1) {
             cout << "Error reading comma" << endl;
             return;
@@ -87,20 +124,21 @@ void Server::handleClient(int clientSocket) {
         cout << "Received " << row << comma << col << endl;
 
         //write result back to the client
-        n = write(clientSocket, &row, sizeof(row));
+        n = write(destSocket, &row, sizeof(row));
         if (n == -1) {
             cout << "Error writing row to socket" << endl;
             return;
         }
-        n = write(clientSocket, &comma, sizeof(comma));
+        n = write(destSocket, &comma, sizeof(comma));
         if (n == -1) {
             cout << "Error writing comma to socket" << endl;
             return;
         }
-        n = write(clientSocket, &col, sizeof(col));
+        n = write(destSocket, &col, sizeof(col));
         if (n == -1) {
             cout << "Error writing col to socket" << endl;
             return;
         }
+        break;
     }
 }

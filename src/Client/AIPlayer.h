@@ -6,6 +6,7 @@
 #define EX3_AIPLAYER_H
 
 #include "Player.h"
+#include "Position.h"
 
 class AIPlayer : public Player {
 public:
@@ -21,9 +22,8 @@ public:
      * @param gl GameLogic&
      * @param b Board*
      */
-    void playOneTurn(GameLogic &gl, Board *b);
+    Position playOneTurn(GameLogic &gl, Board *b);
 
-private:
     /**
      * The method chooses the computer's best move
      * @param gl GameLogic&

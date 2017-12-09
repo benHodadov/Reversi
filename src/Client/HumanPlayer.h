@@ -24,9 +24,8 @@ public:
 	 * @param gl GameLogic&
 	 * @param b Board*
 	 */
-	void playOneTurn(GameLogic &gl, Board *b);
+	Position playOneTurn(GameLogic &gl, Board *b);
 
-private:
 	/**
 	 * the method chooses move for the player
 	 * @param gl GameLogic&

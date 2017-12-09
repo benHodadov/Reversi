@@ -35,7 +35,13 @@ public:
      * @param gl GameLogic
      * @param b Board
      */
-    virtual void playOneTurn(GameLogic &gl, Board *b) = 0;
+    virtual Position playOneTurn(GameLogic &gl, Board *b) = 0;
+
+    /**
+     * chooseMove method - return the selected move for the player.
+     * @return Position.
+     */
+    virtual Position chooseMove(GameLogic &gl, vector<Position> om, const Board &b) = 0;
 
     /**
      * getSign method - returns the player's sign.
@@ -45,12 +51,6 @@ public:
 
 private:
     char s;
-
-    /**
-     * chooseMove method - return the selected move for the player.
-     * @return Position.
-     */
-    virtual Position chooseMove(GameLogic &gl, vector<Position> om, const Board &b) = 0;
 };
 
 #endif //EX3_PLAYER_H

@@ -499,6 +499,14 @@
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
+		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/LocalPlayer.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="CLIENT"/>
+		</Unit>
+		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/LocalPlayer.h">
+			<Option target="ReversiTest"/>
+			<Option target="CLIENT"/>
+		</Unit>
 		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>

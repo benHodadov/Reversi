@@ -11,8 +11,11 @@
 class Client {
 public:
     Client(const char *serverIP, int serverPort);
+    Client();
     void connectToServer();
-    Position sendMessage(int row, int col);
+    int getSign();
+    void sendToServer(int row, int col);
+    Position receiveFromServer();
 
 private:
     const char* serverIP;
