@@ -6,6 +6,12 @@
 
 CommandsManager::CommandsManager() {
     commandsMap["print"] = new TestCommand();
+    commandsMap["start"] = new TestCommand();
+    commandsMap["list_games"] = new TestCommand();
+    commandsMap["join"] = new TestCommand();
+    commandsMap["play"] = new TestCommand();
+    commandsMap["close"] = new TestCommand();
+
 }
 
 void CommandsManager::executeCommand(string command, vector<string> args) {
