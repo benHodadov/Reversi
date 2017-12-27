@@ -6,9 +6,67 @@
 
 #IncludeRegexTransform: 
 
-/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.cpp
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CloseCommand.cpp
+CloseCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CloseCommand.h
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CloseCommand.h
+Command.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
+iostream
+-
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
+vector
+-
+string
+-
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CommandsManager.cpp
+CommandsManager.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CommandsManager.h
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CommandsManager.h
+map
+-
+Command.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
+TestCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.h
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/JoinCommand.cpp
+JoinCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/JoinCommand.h
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/JoinCommand.h
+Command.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
+iostream
+-
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/ListGamesCommand.cpp
+ListGamesCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/ListGamesCommand.h
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/ListGamesCommand.h
+Command.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
+iostream
+-
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.cpp
+PlayCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.h
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.h
+Command.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
+iostream
+-
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Server.cpp
 Server.h
-/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Server.h
 sys/socket.h
 -
 netinet/in.h
@@ -22,13 +80,33 @@ iostream
 stdio.h
 -
 
-/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Server.h
 
-/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/main.cpp
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.cpp
+StartCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.h
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.h
+Command.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
+iostream
+-
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.cpp
+TestCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.h
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.h
+Command.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
+iostream
+-
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/main.cpp
 iostream
 -
 fstream
 -
 Server.h
-/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Server.h
 

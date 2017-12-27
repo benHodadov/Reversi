@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_79acc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_79acc.dir/build.make CMakeFiles/cmTC_79acc.dir/build
-make[1]: Entering directory '/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_79acc.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_79acc.dir/CheckSymbolExists.c.o   -c "/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_79acc
-/home/ben-hodadov/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79acc.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_79acc.dir/CheckSymbolExists.c.o  -o cmTC_79acc 
-CMakeFiles/cmTC_79acc.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_ae91b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae91b.dir/build.make CMakeFiles/cmTC_ae91b.dir/build
+make[1]: Entering directory '/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae91b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ae91b.dir/CheckSymbolExists.c.o   -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_ae91b
+/home/ben/clion-2017.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae91b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ae91b.dir/CheckSymbolExists.c.o  -o cmTC_ae91b 
+CMakeFiles/cmTC_ae91b.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_79acc.dir/build.make:97: recipe for target 'cmTC_79acc' failed
-make[1]: *** [cmTC_79acc] Error 1
-make[1]: Leaving directory '/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_79acc/fast' failed
-make: *** [cmTC_79acc/fast] Error 2
+CMakeFiles/cmTC_ae91b.dir/build.make:97: recipe for target 'cmTC_ae91b' failed
+make[1]: *** [cmTC_ae91b] Error 1
+make[1]: Leaving directory '/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ae91b/fast' failed
+make: *** [cmTC_ae91b/fast] Error 2
 
-File /home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 

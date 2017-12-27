@@ -1,4 +1,4 @@
-# Install script for directory: /home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master
+# Install script for directory: /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 

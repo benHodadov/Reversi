@@ -8,64 +8,64 @@
 		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\googletest-master\;CMake Files\lib\googletest-master\googlemock\;CMake Files\lib\googletest-master\googlemock\cmake\;CMake Files\lib\googletest-master\googletest\;CMake Files\lib\googletest-master\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ReversiTest">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/ReversiTest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/ReversiTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -76,21 +76,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReversiTest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReversiTest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ReversiTest/fast">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/ReversiTest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/ReversiTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -101,21 +101,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReversiTest/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReversiTest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SERVER">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/SERVER" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/SERVER" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -126,21 +126,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 SERVER"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 SERVER"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SERVER/fast">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/SERVER" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/SERVER" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -151,41 +151,41 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 SERVER/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 SERVER/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CLIENT">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CLIENT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CLIENT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -196,21 +196,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLIENT"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLIENT"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CLIENT/fast">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CLIENT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CLIENT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -221,23 +221,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLIENT/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLIENT/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -248,23 +248,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -275,23 +275,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/libgmockd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -302,23 +302,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/libgmockd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -329,21 +329,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -354,21 +354,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -379,21 +379,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -404,21 +404,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -429,221 +429,281 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ben-hodadov/Desktop/Advanced\ Programming/ex4/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ben/Desktop/Ben/bar\ ilan/year2/semester1/Advanced\ Programming/ex5/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/src/gmock-all.cc">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/src/gmock_main.cc">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/src/gtest-all.cc">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/src/gtest-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/src/gtest_main.cc">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/AIPlayer.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/AIPlayer.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/AIPlayer.h">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/AIPlayer.h">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Board.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/Board.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Board.h">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/Board.h">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Client.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/Client.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Client.h">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/Client.h">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/Game.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Game.h">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/Game.h">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/GameLogic.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/GameLogic.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/GameLogic.h">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/GameLogic.h">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/HumanPlayer.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/HumanPlayer.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/HumanPlayer.h">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/HumanPlayer.h">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/LocalPlayer.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/LocalPlayer.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/LocalPlayer.h">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/LocalPlayer.h">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/Player.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Player.h">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/Player.h">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/Position.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/Position.h">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/Position.h">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/RemotePlayer.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/RemotePlayer.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/RemotePlayer.h">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/RemotePlayer.h">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Client/main.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Client/main.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="CLIENT"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CloseCommand.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="SERVER"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.h">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CloseCommand.h">
 			<Option target="ReversiTest"/>
 			<Option target="SERVER"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/main.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h">
 			<Option target="ReversiTest"/>
 			<Option target="SERVER"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/test/AIPlayerTest.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CommandsManager.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CommandsManager.h">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/JoinCommand.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/JoinCommand.h">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/ListGamesCommand.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/ListGamesCommand.h">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.h">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Server.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Server.h">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.h">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.h">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/main.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/test/AIPlayerTest.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/test/BoardTest.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/test/BoardTest.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/test/GameTest.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/test/GameTest.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/test/HumanPlayerTest.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/test/HumanPlayerTest.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/test/MainTest.cpp">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/test/MainTest.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/CMakeLists.txt">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/CMakeLists.txt">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/CMakeLists.txt">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/gtest.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/gtest.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/gtest.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/gtest.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ben-hodadov/Desktop/Advanced Programming/ex4/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
 	</Project>

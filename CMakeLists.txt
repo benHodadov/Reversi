@@ -15,7 +15,13 @@ set(CLIENT_FILES src/Client/main.cpp src/Client/Board.cpp src/Client/Board.h src
 
 set(TEST_FILES test/BoardTest.cpp test/GameTest.cpp test/HumanPlayerTest.cpp test/AIPlayerTest.cpp)
 
-set(SERVER_FILES src/Server/main.cpp src/Server/Server.cpp src/Server/Server.h)
+set(SERVER_FILES src/Server/main.cpp src/Server/Server.cpp src/Server/Server.h
+        src/Server/CommandsManager.cpp src/Server/CommandsManager.h src/Server/Command.h
+        src/Server/TestCommand.cpp src/Server/TestCommand.h src/Server/StartCommand.cpp src/Server/StartCommand.h
+        src/Server/JoinCommand.cpp src/Server/JoinCommand.h src/Server/PlayCommand.cpp src/Server/PlayCommand.h
+        src/Server/CloseCommand.cpp src/Server/CloseCommand.h src/Server/ListGamesCommand.cpp src/Server/ListGamesCommand.h)
+
+set(CMAKE_CXX_FLAGS -pthread)
 
 add_executable(CLIENT ${CLIENT_FILES} src/Client/main.cpp)
 add_executable(SERVER ${SERVER_FILES} src/Server/main.cpp)

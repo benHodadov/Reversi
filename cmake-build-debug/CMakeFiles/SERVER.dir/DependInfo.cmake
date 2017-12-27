@@ -4,8 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/Server.cpp" "/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/Server.cpp.o"
-  "/home/ben-hodadov/Desktop/Advanced Programming/ex4/src/Server/main.cpp" "/home/ben-hodadov/Desktop/Advanced Programming/ex4/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/main.cpp.o"
+  "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CloseCommand.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/CloseCommand.cpp.o"
+  "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CommandsManager.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o"
+  "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/JoinCommand.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o"
+  "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/ListGamesCommand.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o"
+  "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o"
+  "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Server.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/Server.cpp.o"
+  "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o"
+  "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o"
+  "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/main.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
