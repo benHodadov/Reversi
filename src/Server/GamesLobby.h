@@ -7,6 +7,7 @@
 
 #include <map>
 #include <string>
+#include <vector>
 #include "GameRoom.h"
 
 using  namespace std;
@@ -16,6 +17,8 @@ public:
     GamesLobby();
     bool join(string roomName, socklen_t secondPlayer);
     bool addRoom(string roomName, socklen_t firstPlayer);
+    GameRoom* search(string roomName);
+    vector<GameRoom*> availableRooms();
 private:
     map<string, GameRoom*> gamesMap;
 };

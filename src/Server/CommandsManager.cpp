@@ -15,9 +15,9 @@ CommandsManager::CommandsManager() {
     games = GamesLobby();
 }
 
-void CommandsManager::executeCommand(string command, vector<string> args, __socklen_t socket /*=0*/) {
+void* CommandsManager::executeCommand(string command, vector<string> args, __socklen_t socket /*=0*/) {
     Command *commandObj = commandsMap[command];
-    commandObj->execute(args, &games, socket);
+    return commandObj->execute(args, &games, socket);
 }
 
 CommandsManager::~CommandsManager() {

@@ -13,7 +13,7 @@ using namespace std;
 
 class Command {
 public:
-    virtual void execute(vector<string> args,GamesLobby* games, __socklen_t socket) = 0;
+    virtual void* execute(vector<string> args,GamesLobby* games, __socklen_t socket) = 0;
     virtual ~Command() {}
 };
 

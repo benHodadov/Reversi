@@ -34,3 +34,18 @@ bool GamesLobby::addRoom(string roomName, socklen_t firstPlayer) {
     }
     return false;
 }
+
+GameRoom *GamesLobby::search(string roomName) {
+    return this->gamesMap.find(roomName)->second;
+}
+
+vector<GameRoom *> GamesLobby::availableRooms() {
+    vector<GameRoom*> availables;
+    map<string, GameRoom*>::iterator iter;
+    for (iter = gamesMap.begin(); iter != gamesMap.end(); iter++) {
+        if (iter->second->isAvailable()) {
+            availables.push_back(iter->second);
+        }
+    }
+    return availables;
+}

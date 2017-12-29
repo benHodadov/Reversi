@@ -4,10 +4,8 @@
 
 #include "ListGamesCommand.h"
 
-void ListGamesCommand::execute(vector<string> args, GamesLobby* games, __socklen_t socket) {
-    cout << "Close command" << endl;
-    for (int i = 0; i < args.size(); ++i) {
-        cout << args[i] << " ";
-    }
-    cout << endl;
+void* ListGamesCommand::execute(vector<string> args, GamesLobby* games, __socklen_t socket) {
+    cout << "List_Games command" << endl;
+    vector<GameRoom*> availableRooms = games->availableRooms();
+    return (void*) &availableRooms;
 }

@@ -5,7 +5,7 @@
 #include "CloseCommand.h"
 
 
-void CloseCommand::execute(vector<string> args,GamesLobby* games, __socklen_t socket) {
+void* CloseCommand::execute(vector<string> args,GamesLobby* games, __socklen_t socket) {
     cout << "Close command" << endl;
     for (int i = 0; i < args.size(); ++i) {
         cout << args[i] << " ";

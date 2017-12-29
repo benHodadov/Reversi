@@ -10,7 +10,7 @@
 
 class StartCommand: public Command {
 public:
-    virtual void execute(vector<string> args, GamesLobby* games, __socklen_t socket);
+    virtual void* execute(vector<string> args, GamesLobby* games, __socklen_t socket);
 };
 
 

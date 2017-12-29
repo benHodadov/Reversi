@@ -20,7 +20,7 @@ class CommandsManager {
 public:
     CommandsManager();
     ~CommandsManager();
-    void executeCommand(string command, vector<string> args, __socklen_t socket = 0);
+    void* executeCommand(string command, vector<string> args, __socklen_t socket = 0);
 private:
     map<string, Command*> commandsMap;
     GamesLobby games;
