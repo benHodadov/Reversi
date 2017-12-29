@@ -5,18 +5,19 @@
 #include "CommandsManager.h"
 
 CommandsManager::CommandsManager() {
+    map<string, Command*> commandsMap;
+    commandsMap["start"] = new StartCommand();
+    commandsMap["list_games"] = new ListGamesCommand();
+    commandsMap["join"] = new JoinCommand();
+    commandsMap["play"] = new PlayCommand();
+    commandsMap["close"] = new CloseCommand();
     commandsMap["print"] = new TestCommand();
-    commandsMap["start"] = new TestCommand();
-    commandsMap["list_games"] = new TestCommand();
-    commandsMap["join"] = new TestCommand();
-    commandsMap["play"] = new TestCommand();
-    commandsMap["close"] = new TestCommand();
-
+    games = GamesLobby();
 }
 
-void CommandsManager::executeCommand(string command, vector<string> args) {
+void CommandsManager::executeCommand(string command, vector<string> args, __socklen_t socket /*=0*/) {
     Command *commandObj = commandsMap[command];
-    commandObj->execute(args);
+    commandObj->execute(args, &games, socket);
 }
 
 CommandsManager::~CommandsManager() {

@@ -633,9 +633,57 @@ CMakeFiles/ReversiTest.dir/src/Server/ListGamesCommand.cpp.o.provides: CMakeFile
 CMakeFiles/ReversiTest.dir/src/Server/ListGamesCommand.cpp.o.provides.build: CMakeFiles/ReversiTest.dir/src/Server/ListGamesCommand.cpp.o
 
 
+CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o: CMakeFiles/ReversiTest.dir/flags.make
+CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o: ../src/Server/GameRoom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.cpp"
+
+CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.cpp" > CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.i
+
+CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.cpp" -o CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.s
+
+CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o.requires:
+
+.PHONY : CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o.requires
+
+CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o.provides: CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o.provides.build
+.PHONY : CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o.provides
+
+CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o.provides.build: CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o
+
+
+CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o: CMakeFiles/ReversiTest.dir/flags.make
+CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o: ../src/Server/GamesLobby.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.cpp"
+
+CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.cpp" > CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.i
+
+CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.cpp" -o CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.s
+
+CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o.requires:
+
+.PHONY : CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o.requires
+
+CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o.provides: CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o.provides.build
+.PHONY : CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o.provides
+
+CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o.provides.build: CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o
+
+
 CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o: CMakeFiles/ReversiTest.dir/flags.make
 CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o: ../test/MainTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/test/MainTest.cpp"
 
 CMakeFiles/ReversiTest.dir/test/MainTest.cpp.i: cmake_force
@@ -683,6 +731,8 @@ ReversiTest_OBJECTS = \
 "CMakeFiles/ReversiTest.dir/src/Server/PlayCommand.cpp.o" \
 "CMakeFiles/ReversiTest.dir/src/Server/CloseCommand.cpp.o" \
 "CMakeFiles/ReversiTest.dir/src/Server/ListGamesCommand.cpp.o" \
+"CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o" \
+"CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o" \
 "CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o"
 
 # External object files for target ReversiTest
@@ -712,13 +762,15 @@ ReversiTest: CMakeFiles/ReversiTest.dir/src/Server/JoinCommand.cpp.o
 ReversiTest: CMakeFiles/ReversiTest.dir/src/Server/PlayCommand.cpp.o
 ReversiTest: CMakeFiles/ReversiTest.dir/src/Server/CloseCommand.cpp.o
 ReversiTest: CMakeFiles/ReversiTest.dir/src/Server/ListGamesCommand.cpp.o
+ReversiTest: CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o
+ReversiTest: CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o
 ReversiTest: CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o
 ReversiTest: CMakeFiles/ReversiTest.dir/build.make
 ReversiTest: lib/googletest-master/googlemock/gtest/libgtestd.a
 ReversiTest: lib/googletest-master/googlemock/gtest/libgtest_maind.a
 ReversiTest: lib/googletest-master/googlemock/gtest/libgtestd.a
 ReversiTest: CMakeFiles/ReversiTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable ReversiTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable ReversiTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ReversiTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -750,6 +802,8 @@ CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Server/JoinC
 CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Server/PlayCommand.cpp.o.requires
 CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Server/CloseCommand.cpp.o.requires
 CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Server/ListGamesCommand.cpp.o.requires
+CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o.requires
+CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o.requires
 CMakeFiles/ReversiTest.dir/requires: CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o.requires
 
 .PHONY : CMakeFiles/ReversiTest.dir/requires

@@ -555,6 +555,22 @@
 			<Option target="ReversiTest"/>
 			<Option target="SERVER"/>
 		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.h">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.h">
+			<Option target="ReversiTest"/>
+			<Option target="SERVER"/>
+		</Unit>
 		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/JoinCommand.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="SERVER"/>

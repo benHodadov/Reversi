@@ -273,6 +273,54 @@ CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o.provides: CMakeFiles/SER
 CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o.provides.build: CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o
 
 
+CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o: CMakeFiles/SERVER.dir/flags.make
+CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o: ../src/Server/GameRoom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.cpp"
+
+CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.cpp" > CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.i
+
+CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.cpp" -o CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.s
+
+CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o.requires:
+
+.PHONY : CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o.requires
+
+CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o.provides: CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o.provides.build
+.PHONY : CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o.provides
+
+CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o.provides.build: CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o
+
+
+CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o: CMakeFiles/SERVER.dir/flags.make
+CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o: ../src/Server/GamesLobby.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.cpp"
+
+CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.cpp" > CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.i
+
+CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.cpp" -o CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.s
+
+CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o.requires:
+
+.PHONY : CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o.requires
+
+CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o.provides: CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o.provides.build
+.PHONY : CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o.provides
+
+CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o.provides.build: CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o
+
+
 # Object files for target SERVER
 SERVER_OBJECTS = \
 "CMakeFiles/SERVER.dir/src/Server/main.cpp.o" \
@@ -283,7 +331,9 @@ SERVER_OBJECTS = \
 "CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o" \
 "CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o" \
 "CMakeFiles/SERVER.dir/src/Server/CloseCommand.cpp.o" \
-"CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o"
+"CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o" \
+"CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o" \
+"CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o"
 
 # External object files for target SERVER
 SERVER_EXTERNAL_OBJECTS =
@@ -297,9 +347,11 @@ SERVER: CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o
 SERVER: CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o
 SERVER: CMakeFiles/SERVER.dir/src/Server/CloseCommand.cpp.o
 SERVER: CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o
+SERVER: CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o
+SERVER: CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o
 SERVER: CMakeFiles/SERVER.dir/build.make
 SERVER: CMakeFiles/SERVER.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable SERVER"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable SERVER"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SERVER.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -316,6 +368,8 @@ CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp
 CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o.requires
 CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/CloseCommand.cpp.o.requires
 CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o.requires
+CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o.requires
+CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o.requires
 
 .PHONY : CMakeFiles/SERVER.dir/requires
 

@@ -2,7 +2,7 @@
  * main.cpp
  *
  *  Created on: Nov 1, 2017
- *      Author: barak
+ *      Author: ben and barak
  */
 
 #include "Game.h"

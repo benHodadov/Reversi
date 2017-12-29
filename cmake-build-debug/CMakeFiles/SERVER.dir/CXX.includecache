@@ -21,6 +21,8 @@ vector
 -
 string
 -
+GamesLobby.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.h
 
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CommandsManager.cpp
 CommandsManager.h
@@ -33,6 +35,40 @@ Command.h
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
 TestCommand.h
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.h
+StartCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.h
+JoinCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/JoinCommand.h
+ListGamesCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/ListGamesCommand.h
+PlayCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.h
+CloseCommand.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CloseCommand.h
+GamesLobby.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.h
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.cpp
+GameRoom.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.h
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.h
+string
+-
+sys/socket.h
+-
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.cpp
+GamesLobby.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.h
+
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.h
+map
+-
+string
+-
+GameRoom.h
+/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.h
 
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/JoinCommand.cpp
 JoinCommand.h

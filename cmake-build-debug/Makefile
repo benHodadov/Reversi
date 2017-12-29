@@ -637,6 +637,66 @@ src/Server/CommandsManager.cpp.s:
 	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.s
 .PHONY : src/Server/CommandsManager.cpp.s
 
+src/Server/GameRoom.o: src/Server/GameRoom.cpp.o
+
+.PHONY : src/Server/GameRoom.o
+
+# target to build an object file
+src/Server/GameRoom.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o
+.PHONY : src/Server/GameRoom.cpp.o
+
+src/Server/GameRoom.i: src/Server/GameRoom.cpp.i
+
+.PHONY : src/Server/GameRoom.i
+
+# target to preprocess a source file
+src/Server/GameRoom.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.i
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.i
+.PHONY : src/Server/GameRoom.cpp.i
+
+src/Server/GameRoom.s: src/Server/GameRoom.cpp.s
+
+.PHONY : src/Server/GameRoom.s
+
+# target to generate assembly for a file
+src/Server/GameRoom.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.s
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.s
+.PHONY : src/Server/GameRoom.cpp.s
+
+src/Server/GamesLobby.o: src/Server/GamesLobby.cpp.o
+
+.PHONY : src/Server/GamesLobby.o
+
+# target to build an object file
+src/Server/GamesLobby.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o
+.PHONY : src/Server/GamesLobby.cpp.o
+
+src/Server/GamesLobby.i: src/Server/GamesLobby.cpp.i
+
+.PHONY : src/Server/GamesLobby.i
+
+# target to preprocess a source file
+src/Server/GamesLobby.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.i
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.i
+.PHONY : src/Server/GamesLobby.cpp.i
+
+src/Server/GamesLobby.s: src/Server/GamesLobby.cpp.s
+
+.PHONY : src/Server/GamesLobby.s
+
+# target to generate assembly for a file
+src/Server/GamesLobby.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.s
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.s
+.PHONY : src/Server/GamesLobby.cpp.s
+
 src/Server/JoinCommand.o: src/Server/JoinCommand.cpp.o
 
 .PHONY : src/Server/JoinCommand.o
@@ -1040,6 +1100,12 @@ help:
 	@echo "... src/Server/CommandsManager.o"
 	@echo "... src/Server/CommandsManager.i"
 	@echo "... src/Server/CommandsManager.s"
+	@echo "... src/Server/GameRoom.o"
+	@echo "... src/Server/GameRoom.i"
+	@echo "... src/Server/GameRoom.s"
+	@echo "... src/Server/GamesLobby.o"
+	@echo "... src/Server/GamesLobby.i"
+	@echo "... src/Server/GamesLobby.s"
 	@echo "... src/Server/JoinCommand.o"
 	@echo "... src/Server/JoinCommand.i"
 	@echo "... src/Server/JoinCommand.s"

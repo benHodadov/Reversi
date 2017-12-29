@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ReversiTest.dir/src/Server/PlayCommand.cpp.o"
   "CMakeFiles/ReversiTest.dir/src/Server/CloseCommand.cpp.o"
   "CMakeFiles/ReversiTest.dir/src/Server/ListGamesCommand.cpp.o"
+  "CMakeFiles/ReversiTest.dir/src/Server/GameRoom.cpp.o"
+  "CMakeFiles/ReversiTest.dir/src/Server/GamesLobby.cpp.o"
   "CMakeFiles/ReversiTest.dir/test/MainTest.cpp.o"
   "ReversiTest.pdb"
   "ReversiTest"

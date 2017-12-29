@@ -10,7 +10,7 @@
 
 class TestCommand : public Command {
 public:
-    virtual void execute(vector<string> args);
+    virtual void execute(vector<string> args, GamesLobby* games, __socklen_t socket);
 };
 
 #endif //REVERSITEST_TESTCOMMAND_H

@@ -19,7 +19,8 @@ set(SERVER_FILES src/Server/main.cpp src/Server/Server.cpp src/Server/Server.h
         src/Server/CommandsManager.cpp src/Server/CommandsManager.h src/Server/Command.h
         src/Server/TestCommand.cpp src/Server/TestCommand.h src/Server/StartCommand.cpp src/Server/StartCommand.h
         src/Server/JoinCommand.cpp src/Server/JoinCommand.h src/Server/PlayCommand.cpp src/Server/PlayCommand.h
-        src/Server/CloseCommand.cpp src/Server/CloseCommand.h src/Server/ListGamesCommand.cpp src/Server/ListGamesCommand.h)
+        src/Server/CloseCommand.cpp src/Server/CloseCommand.h src/Server/ListGamesCommand.cpp src/Server/ListGamesCommand.h
+        src/Server/GameRoom.cpp src/Server/GameRoom.h src/Server/GamesLobby.cpp src/Server/GamesLobby.h)
 
 set(CMAKE_CXX_FLAGS -pthread)
 

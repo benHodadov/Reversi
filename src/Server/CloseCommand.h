@@ -8,9 +8,9 @@
 #include "Command.h"
 #include <iostream>
 
-class CloseCommand {
+class CloseCommand: public Command {
 public:
-    virtual void execute(vector<string> args);
+    virtual void execute(vector<string> args, GamesLobby* games, __socklen_t socket);
 };
 
 
