@@ -13,7 +13,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o"
   "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Server.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/Server.cpp.o"
   "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o"
-  "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o"
   "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/main.cpp" "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles/SERVER.dir/src/Server/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

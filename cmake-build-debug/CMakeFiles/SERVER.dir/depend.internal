@@ -18,7 +18,6 @@ CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o
  /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/ListGamesCommand.h
  /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.h
  /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.h
- /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.h
 CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o
  /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.cpp
  /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.h
@@ -53,12 +52,6 @@ CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o
  /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.h
  /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.cpp
  /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.h
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o
- /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
- /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.h
- /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.h
- /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.cpp
- /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.h
 CMakeFiles/SERVER.dir/src/Server/main.cpp.o
  /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Server.h
  /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/main.cpp

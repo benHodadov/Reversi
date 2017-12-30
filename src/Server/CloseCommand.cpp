@@ -7,8 +7,10 @@
 
 void* CloseCommand::execute(vector<string> args,GamesLobby* games, __socklen_t socket) {
     cout << "Close command" << endl;
-    for (int i = 0; i < args.size(); ++i) {
-        cout << args[i] << " ";
+    GameRoom* game = games->search(args.at(0));
+    if (game == NULL) {
+        return (void*) -1;
     }
-    cout << endl;
+    // else
+
 }

@@ -611,14 +611,6 @@
 			<Option target="ReversiTest"/>
 			<Option target="SERVER"/>
 		</Unit>
-		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.cpp">
-			<Option target="ReversiTest"/>
-			<Option target="SERVER"/>
-		</Unit>
-		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.h">
-			<Option target="ReversiTest"/>
-			<Option target="SERVER"/>
-		</Unit>
 		<Unit filename="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/main.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="SERVER"/>

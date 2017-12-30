@@ -17,7 +17,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ReversiTest.dir/src/Server/main.cpp.o"
   "CMakeFiles/ReversiTest.dir/src/Server/Server.cpp.o"
   "CMakeFiles/ReversiTest.dir/src/Server/CommandsManager.cpp.o"
-  "CMakeFiles/ReversiTest.dir/src/Server/TestCommand.cpp.o"
   "CMakeFiles/ReversiTest.dir/src/Server/StartCommand.cpp.o"
   "CMakeFiles/ReversiTest.dir/src/Server/JoinCommand.cpp.o"
   "CMakeFiles/ReversiTest.dir/src/Server/PlayCommand.cpp.o"

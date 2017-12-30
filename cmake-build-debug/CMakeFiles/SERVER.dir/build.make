@@ -129,33 +129,9 @@ CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o.provides: CMakeFiles/SERV
 CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o.provides.build: CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o
 
 
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o: CMakeFiles/SERVER.dir/flags.make
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o: ../src/Server/TestCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.cpp"
-
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.cpp" > CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.i
-
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.cpp" -o CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.s
-
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o.requires:
-
-.PHONY : CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o.requires
-
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o.provides: CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o.requires
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o.provides.build
-.PHONY : CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o.provides
-
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o.provides.build: CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o
-
-
 CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o: CMakeFiles/SERVER.dir/flags.make
 CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o: ../src/Server/StartCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.cpp"
 
 CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.i: cmake_force
@@ -179,7 +155,7 @@ CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o.provides.build: CMakeFiles/S
 
 CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o: CMakeFiles/SERVER.dir/flags.make
 CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o: ../src/Server/JoinCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/JoinCommand.cpp"
 
 CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.i: cmake_force
@@ -203,7 +179,7 @@ CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o.provides.build: CMakeFiles/SE
 
 CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o: CMakeFiles/SERVER.dir/flags.make
 CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o: ../src/Server/PlayCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.cpp"
 
 CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.i: cmake_force
@@ -227,7 +203,7 @@ CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o.provides.build: CMakeFiles/SE
 
 CMakeFiles/SERVER.dir/src/Server/CloseCommand.cpp.o: CMakeFiles/SERVER.dir/flags.make
 CMakeFiles/SERVER.dir/src/Server/CloseCommand.cpp.o: ../src/Server/CloseCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SERVER.dir/src/Server/CloseCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SERVER.dir/src/Server/CloseCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/src/Server/CloseCommand.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/CloseCommand.cpp"
 
 CMakeFiles/SERVER.dir/src/Server/CloseCommand.cpp.i: cmake_force
@@ -251,7 +227,7 @@ CMakeFiles/SERVER.dir/src/Server/CloseCommand.cpp.o.provides.build: CMakeFiles/S
 
 CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o: CMakeFiles/SERVER.dir/flags.make
 CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o: ../src/Server/ListGamesCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/ListGamesCommand.cpp"
 
 CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.i: cmake_force
@@ -275,7 +251,7 @@ CMakeFiles/SERVER.dir/src/Server/ListGamesCommand.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o: CMakeFiles/SERVER.dir/flags.make
 CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o: ../src/Server/GameRoom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GameRoom.cpp"
 
 CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.i: cmake_force
@@ -299,7 +275,7 @@ CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o.provides.build: CMakeFiles/SERVE
 
 CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o: CMakeFiles/SERVER.dir/flags.make
 CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o: ../src/Server/GamesLobby.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o -c "/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/GamesLobby.cpp"
 
 CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.i: cmake_force
@@ -326,7 +302,6 @@ SERVER_OBJECTS = \
 "CMakeFiles/SERVER.dir/src/Server/main.cpp.o" \
 "CMakeFiles/SERVER.dir/src/Server/Server.cpp.o" \
 "CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o" \
-"CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o" \
 "CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o" \
 "CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o" \
 "CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o" \
@@ -341,7 +316,6 @@ SERVER_EXTERNAL_OBJECTS =
 SERVER: CMakeFiles/SERVER.dir/src/Server/main.cpp.o
 SERVER: CMakeFiles/SERVER.dir/src/Server/Server.cpp.o
 SERVER: CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o
-SERVER: CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o
 SERVER: CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o
 SERVER: CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o
 SERVER: CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o
@@ -351,7 +325,7 @@ SERVER: CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o
 SERVER: CMakeFiles/SERVER.dir/src/Server/GamesLobby.cpp.o
 SERVER: CMakeFiles/SERVER.dir/build.make
 SERVER: CMakeFiles/SERVER.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable SERVER"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable SERVER"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SERVER.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -362,7 +336,6 @@ CMakeFiles/SERVER.dir/build: SERVER
 CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/main.cpp.o.requires
 CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/Server.cpp.o.requires
 CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o.requires
-CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o.requires
 CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o.requires
 CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/JoinCommand.cpp.o.requires
 CMakeFiles/SERVER.dir/requires: CMakeFiles/SERVER.dir/src/Server/PlayCommand.cpp.o.requires

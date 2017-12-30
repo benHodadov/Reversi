@@ -8,8 +8,16 @@
 #include "Command.h"
 #include <iostream>
 
+// the PlayCommand derived from the command interface
 class PlayCommand: public Command {
 public:
+/**
+     * This method will execute the play command.
+     * @param args vector<string>
+     * @param games GamesLobby*
+     * @param socket __socklen_t
+     * @return executed
+     */
     virtual void* execute(vector<string> args, GamesLobby* games, __socklen_t socket);
 };
 

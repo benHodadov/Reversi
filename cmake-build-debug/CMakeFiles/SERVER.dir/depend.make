@@ -17,7 +17,6 @@ CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o: ../src/Server/JoinComman
 CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o: ../src/Server/ListGamesCommand.h
 CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o: ../src/Server/PlayCommand.h
 CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o: ../src/Server/StartCommand.h
-CMakeFiles/SERVER.dir/src/Server/CommandsManager.cpp.o: ../src/Server/TestCommand.h
 
 CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o: ../src/Server/GameRoom.cpp
 CMakeFiles/SERVER.dir/src/Server/GameRoom.cpp.o: ../src/Server/GameRoom.h
@@ -52,12 +51,6 @@ CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o: ../src/Server/GameRoom.h
 CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o: ../src/Server/GamesLobby.h
 CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o: ../src/Server/StartCommand.cpp
 CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.o: ../src/Server/StartCommand.h
-
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o: ../src/Server/Command.h
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o: ../src/Server/GameRoom.h
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o: ../src/Server/GamesLobby.h
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o: ../src/Server/TestCommand.cpp
-CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o: ../src/Server/TestCommand.h
 
 CMakeFiles/SERVER.dir/src/Server/main.cpp.o: ../src/Server/Server.h
 CMakeFiles/SERVER.dir/src/Server/main.cpp.o: ../src/Server/main.cpp

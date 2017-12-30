@@ -11,7 +11,6 @@ CommandsManager::CommandsManager() {
     commandsMap["join"] = new JoinCommand();
     commandsMap["play"] = new PlayCommand();
     commandsMap["close"] = new CloseCommand();
-    commandsMap["print"] = new TestCommand();
     games = GamesLobby();
 }
 

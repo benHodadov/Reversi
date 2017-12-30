@@ -847,36 +847,6 @@ src/Server/StartCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/StartCommand.cpp.s
 .PHONY : src/Server/StartCommand.cpp.s
 
-src/Server/TestCommand.o: src/Server/TestCommand.cpp.o
-
-.PHONY : src/Server/TestCommand.o
-
-# target to build an object file
-src/Server/TestCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Server/TestCommand.cpp.o
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.o
-.PHONY : src/Server/TestCommand.cpp.o
-
-src/Server/TestCommand.i: src/Server/TestCommand.cpp.i
-
-.PHONY : src/Server/TestCommand.i
-
-# target to preprocess a source file
-src/Server/TestCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Server/TestCommand.cpp.i
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.i
-.PHONY : src/Server/TestCommand.cpp.i
-
-src/Server/TestCommand.s: src/Server/TestCommand.cpp.s
-
-.PHONY : src/Server/TestCommand.s
-
-# target to generate assembly for a file
-src/Server/TestCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Server/TestCommand.cpp.s
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/src/Server/TestCommand.cpp.s
-.PHONY : src/Server/TestCommand.cpp.s
-
 src/Server/main.o: src/Server/main.cpp.o
 
 .PHONY : src/Server/main.o
@@ -1121,9 +1091,6 @@ help:
 	@echo "... src/Server/StartCommand.o"
 	@echo "... src/Server/StartCommand.i"
 	@echo "... src/Server/StartCommand.s"
-	@echo "... src/Server/TestCommand.o"
-	@echo "... src/Server/TestCommand.i"
-	@echo "... src/Server/TestCommand.s"
 	@echo "... src/Server/main.o"
 	@echo "... src/Server/main.i"
 	@echo "... src/Server/main.s"

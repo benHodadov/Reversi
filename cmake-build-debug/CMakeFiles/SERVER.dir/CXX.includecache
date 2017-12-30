@@ -33,8 +33,6 @@ map
 -
 Command.h
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
-TestCommand.h
-/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.h
 StartCommand.h
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.h
 JoinCommand.h
@@ -95,6 +93,14 @@ iostream
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.cpp
 PlayCommand.h
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.h
+iostream
+-
+string
+-
+cstdlib
+-
+unistd.h
+-
 
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/PlayCommand.h
 Command.h
@@ -125,16 +131,6 @@ StartCommand.h
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.h
 
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/StartCommand.h
-Command.h
-/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
-iostream
--
-
-/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.cpp
-TestCommand.h
-/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.h
-
-/home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/TestCommand.h
 Command.h
 /home/ben/Desktop/Ben/bar ilan/year2/semester1/Advanced Programming/ex5/src/Server/Command.h
 iostream
