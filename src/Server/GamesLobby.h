@@ -18,6 +18,7 @@ public:
     bool join(string roomName, socklen_t secondPlayer);
     bool addRoom(string roomName, socklen_t firstPlayer);
     GameRoom* search(string roomName);
+    GameRoom* search(socklen_t socket);
     vector<GameRoom*> availableRooms();
 private:
     map<string, GameRoom*> gamesMap;

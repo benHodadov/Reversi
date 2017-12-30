@@ -31,6 +31,23 @@ public:
      */
     bool isAvailable();
 
+    /**
+     * A getter for first  socket
+     * @return first
+     */
+    socklen_t getFirst() const;
+
+    /**
+     * A getter for second  socket
+     * @return second
+     */
+    socklen_t getSecond() const;
+
+    /**
+     * A getter for name
+     * @return name
+     */
+    const string &getName() const;
 private:
     string name;
     socklen_t first;

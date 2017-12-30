@@ -17,3 +17,15 @@ bool GameRoom::isAvailable() {
 void GameRoom::join(socklen_t second) {
     this->second = second;
 }
+
+socklen_t GameRoom::getFirst() const {
+    return first;
+}
+
+socklen_t GameRoom::getSecond() const {
+    return second;
+}
+
+const string &GameRoom::getName() const {
+    return name;
+}

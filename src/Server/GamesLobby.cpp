@@ -39,7 +39,7 @@ GameRoom *GamesLobby::search(string roomName) {
     return this->gamesMap.find(roomName)->second;
 }
 
-vector<GameRoom *> GamesLobby::availableRooms() {
+vector<GameRoom*> GamesLobby::availableRooms() {
     vector<GameRoom*> availables;
     map<string, GameRoom*>::iterator iter;
     for (iter = gamesMap.begin(); iter != gamesMap.end(); iter++) {
@@ -48,4 +48,15 @@ vector<GameRoom *> GamesLobby::availableRooms() {
         }
     }
     return availables;
+}
+
+GameRoom* GamesLobby::search(socklen_t socket) {
+    map<string, GameRoom*>::iterator iter;
+    for (iter = gamesMap.begin(); iter != gamesMap.end(); iter++) {
+        if (iter->second->getFirst() == socket || iter->second->getSecond() == socket) {
+            return iter->second;
+        }
+    }
+    // if it goe here - there is no room matching. return null.
+    return NULL;
 }
